@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Game &mdash; Guess The Number</title>
+		<link rel="stylesheet" href="./css/main.css" />
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="stars-box">
+				<div id="stars"></div>
+				<div id="stars3"></div>
+			</div>
+			<div class="sidebar">
+				<div class="sidebar__logo">
+					<a href="index.html" class="sidebar__logo-btn">
+						<i class="bx bxs-invader"></i>
+					</a>
+				</div>
+
+				<a href="" class="sidebar__btn sidebar__btn-1">
+					<i class="bx bx-revision"></i>
+				</a>
+
+				<a href="" class="sidebar__btn sidebar__btn-2">
+					<i class="bx bx-play"></i>
+				</a>
+
+				<a href="" class="sidebar__btn sidebar__btn-3">
+					<i class="bx bx-volume-full"></i>
+				</a>
+
+				<a href="" class="sidebar__btn sidebar__btn-3">
+					<i class="bx bx-question-mark"></i>
+				</a>
+
+				<a href="" class="sidebar__btn sidebar__btn-4">
+					<i class="bx bx-fullscreen"></i>
+				</a>
+
+				<a href="" class="sidebar__btn sidebar__btn-5">
+					<i class="bx bx-user"></i>
+				</a>
+			</div>
+
+			<header class="header">
+				<div class="header__text">GUESS THE NUMBER (1-20) 💡</div>
+
+				<div class="header__input">
+					<input type="number" class="guess" />
+					<button class="btn check">Check!</button>
+				</div>
+
+				<div class="header__scorebox">
+					<div class="message">❓ Start guessing...</div>
+					<div class="score">
+						<br />
+						🔅 Score: 20
+					</div>
+					<div class="highscore">🔱 Highscore: 0</div>
+				</div>
+			</header>
+		</div>
+	</body>
+</html>
