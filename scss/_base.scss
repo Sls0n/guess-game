@@ -16,8 +16,9 @@ html {
 }
 
 body {
-	// font-family: "Inter", sans-serif;
-	font-family: "Press Start 2P", cursive;
+
+	font-family: "Inter", sans-serif;
+	// font-family: "Press Start 2P", cursive;
 	max-width: 100vw;
 	font-weight: 300;
 	line-height: 1.6;
@@ -25,5 +26,5 @@ body {
 
 .container {
 	background-color: #0e0f12;
-	min-height: 100vh;
+	height: 100vh;
 }
